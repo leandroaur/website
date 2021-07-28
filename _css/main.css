@@ -249,10 +249,10 @@ span.accent {
 	border: none;
 }
 #mainHeader a.logo{
-	width: 464px;
-	height: 189px;
+	width: 181px;
+	height: 74px;
 	display: block;
-	background: url(../_images/logo.gif) no-repeat;
+	background: url(../_images/logo_new.gif) no-repeat;
 	position: absolute;
 	top: -25px;
 	left: 50px;
