@@ -7,4 +7,19 @@ Docker (https://docs.docker.com/get-docker)
 
 Docker compose instalado.
 
+Remover o diretorio app da pasta website
 
+a partir da pasta app:
+
+1 - montar o container inicial
+docker-compose build website
+2 - inicializar o website
+docker-compose up website
+
+Se estiver trabalhando localmente:
+Va em sua url e digite localhost ou o ip de sua maquina 
+Caso o container esteja funcionando remotamente, aponte o ip da maquina remota no seu browser de internet.
+
+Caso queira inicializar o container em segundo plano, coloque a variavel -d em sua linha do docker compose.
+
+Cada vez que realizar qualquer atualizacao nos arquivos do website, realize sempre as etapas 1 e 2 novamente.
