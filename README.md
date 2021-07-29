@@ -9,10 +9,14 @@ Docker compose instalado.
 
 Remover o diretorio app da pasta website
 
-a partir da pasta app:
+"Atencao, executar todos os procedimentos abaixo fora do diretorio website".
+
+Mover para fora do diretorio website os arquivos docker-compose.yml, Dockerfile, e nginx.conf 
 
 1 - montar o container inicial
+
 docker-compose build website
+
 2 - inicializar o website
 docker-compose up website
 
